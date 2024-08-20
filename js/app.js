@@ -1,3 +1,15 @@
+//banner_volume button icon chage js
+  function volumeControl(){
+  let volumeIcon = document.querySelector(".banner_volume>i");
+
+  volumeIcon.classList.toggle("fa-volume-high");
+  volumeIcon.classList.toggle("fa-volume-xmark");
+}
+
+
+
+
+
 // api key  from TMDB 
 const api = "api_key=543afbd2fd62855f5e10faafb63f76f6";
 // base url of the site 
